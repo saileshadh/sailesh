@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sailesh/static/css/main.00d43bc7.css",
+    "main.js": "/sailesh/static/js/main.1cc1fb8b.js",
+    "static/js/787.e8a28bc8.chunk.js": "/sailesh/static/js/787.e8a28bc8.chunk.js",
+    "static/media/hero.jpg": "/sailesh/static/media/hero.cbe2c40cfa8996ebcb82.jpg",
+    "index.html": "/sailesh/index.html",
+    "main.00d43bc7.css.map": "/sailesh/static/css/main.00d43bc7.css.map",
+    "main.1cc1fb8b.js.map": "/sailesh/static/js/main.1cc1fb8b.js.map",
+    "787.e8a28bc8.chunk.js.map": "/sailesh/static/js/787.e8a28bc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00d43bc7.css",
+    "static/js/main.1cc1fb8b.js"
+  ]
+}
