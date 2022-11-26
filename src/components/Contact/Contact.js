@@ -39,7 +39,7 @@ const Contact = () => {
         <div className='container top'>
           <div className='heading text-center'>
 
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
           </div>
 
           <div className='content d_flex'>

@@ -66,6 +66,11 @@ const Resume = () => {
               <br />
               <progress id="file" value="70" max="100"> </progress>
               <br />
+              <span className="span"><label className="label">MYSQL:</label>
+                60%</span>
+              <br />
+              <progress id="file" value="60" max="100" > </progress>
+              <br/>
               <span className="span">
                 <label className="label">Python:</label>
                 60%</span>
