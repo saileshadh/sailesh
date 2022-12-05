@@ -21,7 +21,7 @@
 }
 .Resume .box {
   margin-bottom: 30px;
-  position: relative;
+  /* position: relative; */
 }
 .Resume .btn_shadow:hover {
   transform: translate(0);
