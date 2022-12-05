@@ -31,14 +31,14 @@
 .Contact .right button {
   width: 100%;
 
-  height: 50px;
+  /* height: 50px; */
   color: #ff0101;
 }
 .Contact .right button:hover {
   color: white;
 }
 .Contact .left .box .img{
-  width: 35%;
+  width: 3%;
 }
 .Contact .right button i {
   margin-left: 10px;
@@ -47,9 +47,9 @@
   .Contact .d_flex {
     flex-direction: column;
   }
-  .Contact .left,
-  .Contact .right {
-    width: 100%;
+  .Contact .left,.Contact .right {
+    width: 80%;
     margin-top: 50px;
+    margin-left: auto;
   }
 }

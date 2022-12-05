@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 
 }
 html {
@@ -14,10 +14,10 @@ body {
 }
 
 .container {
-   height: 100%;
-  max-width: 90%;
+   /* height: 100%; */
+  max-width: 95%;
   margin: auto;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 .d_flex {
    display: flex;
@@ -49,8 +49,9 @@ button {
 }
 
 .btn_shadow {
-  padding: 18px 25px;
+  padding: 1rem 2rem;
   border-radius: 6px;
+  margin-top:1rem;
   transition: 0.3s all ease;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
@@ -80,10 +81,11 @@ button {
   width: 50%;
 }
 .right{
-  margin-left: 40px;
+  margin-left: 45px;
 }
 .top {
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .mtop {
   display: flex;
