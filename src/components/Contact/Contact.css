@@ -23,7 +23,7 @@
 }
 
 .Contact .right {
-  padding: 35px;
+  padding: 25px;
 }
 .Contact .input span {
   font-size: 13px;
@@ -48,7 +48,7 @@
     flex-direction: column;
   }
   .Contact .left,.Contact .right {
-    width: 80%;
+    width: 90%;
     margin-top: 50px;
     margin-left: auto;
   }
