@@ -2,18 +2,18 @@
 const data = [
   {
     id: 1,
-    image: "https://img.icons8.com/ios/64/000000/menu.png",
-    title: "Ecommerce",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
+    title: "Sentiment analysis",
+    desc: "This is Machine learning project involves classification of tweets into three main sentiments: positive,negative and neutral. ",
     
    
   },
   {
     id: 2,
-    image: "https://img.icons8.com/fluency-systems-regular/64/000000/retro-tv.png ",
-    title: "Spotify-clone",
-    desc: "A front-end clone project of the Spotify website. The project was created using basic HTML,CSS, JavaScript and web components.",
-    
+    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
+    title: "Brain hemorrhage detection using deep learning",
+    desc: "It is a AI project, which detect the brain hamorrhage with its types",
+      
   },
   {
     id: 3,
@@ -32,17 +32,19 @@ const data = [
   },
   {
     id: 5,
-    image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
-    title: "Sentiment analysis",
-    desc: "This project involves classification of tweets into three main sentiments: positive,negative and neutral. ",
-    
-  },
-  {
-    id: 6,
     image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
     title: "Personal Portfolio",
     desc: "It is the personal portfolio website designed using React JS",
     link:"https:www.google.com",
+
+    
+  },
+  {
+    id: 6,
+    image: "https://img.icons8.com/ios/64/000000/menu.png",
+    title: "News portal clone",
+    desc: "This is News portal clone website designed using different web development tools",
+
   },
 ]
 export default data
