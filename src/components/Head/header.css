@@ -46,7 +46,7 @@ header ul li a:hover {
 }
 .toggle .open {
   display:ruby-base;
-  color: rgb(255, 255, 255);
+  color: rgb(140, 0, 0);
 }
 .header.active {
   height: 12vh;
