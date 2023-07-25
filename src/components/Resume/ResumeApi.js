@@ -20,6 +20,13 @@ const ResumeApi = [
     title: "SLC",
 
   },
+  {
+    id: 1,
+    category: "experience",
+    year: "KTM labs pvt ltd , Bansbari Kathmandu ",
+    title: "Front-end developer Internship",
+
+  },
 
 ]
 

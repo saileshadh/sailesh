@@ -1,33 +1,43 @@
 header {
-  height: 10vh;
+  height: 12vh;
   line-height: 10vh;
   background-color: #0087ac;
+  padding-left:25px;
+  padding-right: 100px;
 }
+
 header .container {
-  padding-top: 1px;
+  padding-top: 5px;
 }
 
 .navlink ul li {
   margin-left: 30px;
   /* padding-top: -5px; */
 }
+
 .navlink ul li a {
+  padding-top: 25px;
   transition: 0.3s;
-  font-family:Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
 }
+
 header ul li a:hover {
   color: #ff0101;
 }
-.logo li a{
- 
-  font-family:Arial, Helvetica, sans-serif ;
-  font-size:190%;
+
+.logo li a {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 200%;
   color: #000000;
 
 }
+
 .home-btn {
   padding: 18px 25px;
   border-radius: 6px;
@@ -36,18 +46,28 @@ header ul li a:hover {
   height: fit-content;
   color: #db0243;
 }
+
 .home-btn {
-  background: linear-gradient(145deg, #146195, #d90000);
+  background: linear-gradient(145deg, #147795, #0089d9);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
+
 .home-btn:hover {
+  align-items: center;
+  position: relative;
   background: #0149ff;
   color: white;
 }
+
 .toggle .open {
-  display:ruby-base;
-  color: rgb(240, 247, 255);
+  transform: translateY(-160px);
+  align-items: center;
+  position: relative;
+  display: ruby-base;
+  background-color: #5baff0;
+  color: #bd1212;
 }
+
 .header.active {
   height: 12vh;
   position: fixed;
@@ -58,15 +78,17 @@ header ul li a:hover {
   box-shadow: -1px 11px 24px -11px rgb(0, 0, 0);
   transition: 0.5s;
 }
+
 @media (max-width: 768px) {
-  header ul {
-    padding-top: 30px;
+  .navlink ul {
+    padding-top: 50px;
   }
+
   .nav-links-mobile {
     position: absolute;
     display: block;
     list-style: none;
-    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 83, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
     top: 0;
     transition: all 0.5s ease-in-out;
@@ -75,37 +97,42 @@ header ul li a:hover {
     background-color: white;
     z-index: 888;
   }
+
   header ul li {
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;
     line-height: 70px;
   }
+
   header .link {
     display: none;
   }
-  .close,.open {
-    position: absolute;
-    top: 35px;
-    right: 20px;
-    color: #be0954;
+
+  .close,
+  .open {
+    position: relative;
+    color: #09a9be;
     display: block;
     font-size: 25px;
     z-index: 999;
   }
+
   .close {
     right: 45%;
   }
+
   .close.home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    color: #c40354;
+    color: #03a7c4;
     border-radius: 50%;
     padding: 0;
     width: 60px;
     height: 60px;
     line-height: 60px;
   }
+
   .header.active {
-    height: 10vh;
+    height: 12vh;
   }
 }

@@ -30,23 +30,19 @@
   background: #ff3a75;
   box-shadow: none;
 }
-
+.Center{
+  display: flex;
+  justify-content: center;
+}
+.h2{
+  align-items: center;
+}
 .Resume .right {
   position: relative;
   margin: 10px;
 }
 .Resume .left {
   position: relative;
-}
-.Resume .left::after {
-  content: "";
-  position: absolute;
-  top: 16%;
-  left: 0;
-  height:600px ;
-  width: 8px;
-  background: #bec1c9;
-  z-index: -2;
 }
 .Resume .box::after {
   content: "";
@@ -100,9 +96,5 @@
 @media (max-width: 768px) {
   .Resume .d_flex {
     flex-direction: column;
-  }
-  .Resume .left::after {
-    top: 14%;
-    height: 105vh;
   }
 }
