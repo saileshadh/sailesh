@@ -17,7 +17,7 @@ const Resume = () => {
             <div className='left'>
               <div className='heading'>
 
-                <h2>Experiences </h2>
+                <h2>Education </h2>
               </div>
 
               <div className='content'>
@@ -102,7 +102,7 @@ const Resume = () => {
           <div className='heading'>
           </div>
           <div className='content'>
-          <h2>  Education</h2>
+          <h2>  Experiences</h2>
             {ResumeApi.map((val, id) => {
               if (val.category === "experience") {
                 return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
