@@ -17,7 +17,7 @@ const Resume = () => {
             <div className='left'>
               <div className='heading'>
 
-                <h2>Education </h2>
+                <h2>Education & Certifications </h2>
               </div>
 
               <div className='content'>
@@ -48,55 +48,82 @@ const Resume = () => {
                 <progress id="file" value="80" max="100"> </progress>
                 <br />
                 <span className="span"><label className="label">JavaScript:</label>
-                  70%</span>
+                  80%</span>
                 <br />
-                <progress id="file" value="70" max="100"> </progress>
+                <progress id="file" value="80" max="100"> </progress>
                 <br />
                 <span className="span"><label className="label">Bootstrap:</label>
-                  70%</span>
+                  80%</span>
                 <br />
-                <progress id="file" value="70" max="100"> </progress>
+                <progress id="file" value="80" max="100"> </progress>
                 <br />
                 <span className="span"><label className="label">React js:</label>
-                  70%</span>
+                  80%</span>
                 <br />
-                <progress id="file" value="70" max="100"> </progress>
+                <progress id="file" value="80" max="100"> </progress>
                 <br />
                 <span className="span"><label className="label">Next js:</label>
-                  70%</span>
+                  80%</span>
                 <br />
-                <progress id="file" value="70" max="100" > </progress>
+                <progress id="file" value="80" max="100" > </progress>
+                <br />
+                <span className="span"><label className="label">Vue js:</label>
+                  80%</span>
+                <br />
+                <progress id="file" value="80" max="100" > </progress>
                 <br />
                 <span className="span"><label className="label">Material ui:</label>
-                  70%</span>
+                  80%</span>
                 <br />
-                <progress id="file" value="70" max="100" > </progress>
+                <progress id="file" value="80" max="100" > </progress>
                 <br />
                 <span className="span"><label className="label">Chakra ui:</label>
                   70%</span>
                 <br />
-                <progress id="file" value="70" max="100" > </progress>
+                <progress id="file" value="80" max="100" > </progress>
                 <br />
                 <span className="span">
                   <label className="label">Tailwind CSS:</label>
-                  60%</span>
+                  80%</span>
+                <br />
+                <progress id="file" value="80" max="100" > </progress>
+                <br />
+                <span className="span"><label className="label">PHP:</label>
+                  70%</span>
+                <br />
+                <progress id="file" value="70" max="100" > </progress>
+                <br />
+                <span className="span"><label className="label">Laravel:</label>
+                  70%</span>
                 <br />
                 <progress id="file" value="70" max="100" > </progress>
                 <br />
                 <span className="span"><label className="label">Typescript:</label>
-                  60%</span>
+                  70%</span>
                 <br />
-                <progress id="file" value="60" max="100" > </progress>
+                <progress id="file" value="70" max="100" > </progress>
                 <span className="span"><label className="label">Node js:</label>
-                  60%</span>
+                  70%</span>
                 <br />
-                <progress id="file" value="60" max="100" > </progress>
+                <progress id="file" value="70" max="100" > </progress>
+                <span className="span"><label className="label">MySql:</label>
+                  70%</span>
+                <br />
+                <progress id="file" value="70" max="100" > </progress>
+                <span className="span"><label className="label">GraphQL:</label>
+                  70%</span>
+                <br />
+                <progress id="file" value="70" max="100" > </progress>
+                <span className="span"><label className="label">Rest API:</label>
+                  70%</span>
+                <br />
+                <progress id="file" value="70" max="100" > </progress>
               </div>
+              
             </div>
           </div>
           <hr></hr>
         </div>
-
 
         <div className='Center'>
           <div className='heading'>
