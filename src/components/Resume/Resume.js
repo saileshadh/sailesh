@@ -125,21 +125,8 @@ const Resume = () => {
           <hr></hr>
         </div>
 
-        <div className='Center'>
-          <div className='heading'>
-          </div>
-          <div className='content'>
-          <h2>  Experiences</h2>
-            {ResumeApi.map((val, id) => {
-              if (val.category === "experience") {
-                return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
-              }
-            })}
-
-            {/**/}
-          </div>
-        </div>
-        <hr></hr>
+       
+        {/* {/* <hr></hr> */}
       </section >
     </>
   )
